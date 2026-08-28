@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "routes": [
-    { "src": "/api/send",   "dest": "/api/send.js" },
-    { "src": "/api/verify", "dest": "/api/verify.js" },
-    { "src": "/(.*)",       "dest": "/$1" }
-  ]
-}
